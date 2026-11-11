@@ -1,0 +1,35 @@
+﻿[
+    {
+        "Page":  "home",
+        "Performance":  97,
+        "Access":  93,
+        "BestPract":  78,
+        "SEO":  92,
+        "LCP_s":  2.15,
+        "TBT_ms":  26,
+        "CLS":  0.018,
+        "KB":  339
+    },
+    {
+        "Page":  "shop",
+        "Performance":  79,
+        "Access":  97,
+        "BestPract":  78,
+        "SEO":  92,
+        "LCP_s":  3.69,
+        "TBT_ms":  213,
+        "CLS":  0.002,
+        "KB":  296
+    },
+    {
+        "Page":  "product",
+        "Performance":  88,
+        "Access":  94,
+        "BestPract":  78,
+        "SEO":  92,
+        "LCP_s":  3.55,
+        "TBT_ms":  48,
+        "CLS":  0.000,
+        "KB":  342
+    }
+]

@@ -1,0 +1,66 @@
+/* Home page: hero banner and trust badges. Animation respects reduced-motion settings. */
+
+/* The hero already carries the headline, so the default "Home" page title is hidden. */
+.home .entry-header {
+	display: none;
+}
+.liepa-hero {
+	padding: 5rem 1rem;
+	text-align: center;
+	background: #f6f1ea;
+	border-radius: 8px;
+	animation: liepa-rise 0.8s ease-out both;
+}
+
+.liepa-hero h1 {
+	margin-bottom: 0.25em;
+}
+
+.liepa-hero__lv {
+	font-style: italic;
+	margin-bottom: 1.5em;
+}
+
+.liepa-trust {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+	gap: 1rem;
+	margin: 2.5rem 0 1rem;
+	padding: 0;
+	list-style: none;
+}
+
+.liepa-trust li {
+	padding: 1rem;
+	text-align: center;
+	background: #f6f1ea;
+	border-radius: 8px;
+}
+
+.liepa-trust strong,
+.liepa-trust span {
+	display: block;
+}
+
+.liepa-note {
+	font-size: 0.85em;
+	text-align: center;
+	opacity: 0.75;
+}
+
+@keyframes liepa-rise {
+	from {
+		opacity: 0;
+		transform: translateY(16px);
+	}
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.liepa-hero {
+		animation: none;
+	}
+}

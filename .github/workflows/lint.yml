@@ -1,0 +1,26 @@
+name: Code checks
+
+# Quick checks that need no WordPress site: PHP syntax and JSON validity.
+# The browser tests (tests/e2e) need the running local store, so they are run on the developer's machine.
+on:
+  push:
+  pull_request:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+
+      - name: PHP syntax check
+        run: find src scripts/php -name '*.php' -print0 | xargs -0 -n1 php -l
+
+      - name: JSON files are valid
+        run: |
+          for f in scripts/seed/*.json tests/package.json; do
+            python3 -m json.tool "$f" > /dev/null && echo "ok $f"
+          done

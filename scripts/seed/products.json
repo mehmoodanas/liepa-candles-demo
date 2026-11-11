@@ -1,0 +1,10 @@
+[
+  { "sku": "LIE-001", "name": "Linden Blossom Soy Candle", "name_lv": "Liepu ziedu sojas svece", "price": "14.90", "category": "Soy candles", "stock": 40, "wax": "#e9d98a", "bg": "#f3ecd0" },
+  { "sku": "LIE-002", "name": "Baltic Pine Soy Candle", "name_lv": "Baltijas priedes sojas svece", "price": "15.90", "category": "Soy candles", "stock": 35, "wax": "#8fae8b", "bg": "#e2ebdd" },
+  { "sku": "LIE-003", "name": "Amber Sea Soy Candle", "name_lv": "Dzintara jūras sojas svece", "price": "17.90", "category": "Soy candles", "stock": 30, "wax": "#e2a64c", "bg": "#f6e4c4" },
+  { "sku": "LIE-004", "name": "Forest Berry Soy Candle", "name_lv": "Meža ogu sojas svece", "price": "14.90", "category": "Soy candles", "stock": 25, "wax": "#a8486a", "bg": "#f0d9e0" },
+  { "sku": "LIE-005", "name": "Rye Bread and Honey Soy Candle", "name_lv": "Rudzu maizes un medus sojas svece", "price": "16.50", "category": "Soy candles", "stock": 20, "wax": "#b8864b", "bg": "#efe0cb" },
+  { "sku": "LIE-006", "name": "Midsummer Meadow Soy Candle", "name_lv": "Jāņu pļavas sojas svece", "price": "15.50", "category": "Soy candles", "stock": 28, "wax": "#c7d97a", "bg": "#eef2d4" },
+  { "sku": "LIE-007", "name": "Winter Spice Soy Candle", "name_lv": "Ziemas garšvielu sojas svece", "price": "16.90", "category": "Soy candles", "stock": 0, "wax": "#9c5b44", "bg": "#ecd8cf" },
+  { "sku": "LIE-008", "name": "Riga Evening Gift Set (3 candles)", "name_lv": "Rīgas vakara dāvanu komplekts (3 sveces)", "price": "39.00", "category": "Gift sets", "stock": 12, "wax": "#6f7fa8", "bg": "#dde2ee" }
+]

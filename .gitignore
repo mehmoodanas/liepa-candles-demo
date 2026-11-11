@@ -1,0 +1,16 @@
+# Installed tools and local sites stay out of Git (they live on drive E, see README)
+tools/
+sites/
+backups/
+node_modules/
+playwright-report/
+test-results/
+*.zip
+.DS_Store
+
+# Local editor/assistant settings
+.claude/
+
+# Full Lighthouse reports are large; only the small score summaries are kept
+docs/performance/*.json
+!docs/performance/*-summary.json

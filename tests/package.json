@@ -1,0 +1,13 @@
+{
+  "name": "liepa-candles-tests",
+  "private": true,
+  "description": "End-to-end tests for the Liepa Candles demo store (Playwright, uses the installed Chrome)",
+  "scripts": {
+    "test": "playwright test --grep-invert @screenshots",
+    "screenshots": "playwright test --grep @screenshots",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0"
+  }
+}
